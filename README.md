@@ -25,23 +25,23 @@ VIVIAN rethinks the way immutable distributed systems are built by using a more 
 ### 1.2. Objectives of VIVIAN
 The primary objectives of VIVIAN are to address the challenges and limitations of existing DLTs in the context of AI-driven and autonomous applications while providing a robust, decentralized, and secure infrastructure. Specifically, VIVIAN aims to achieve the following goals:
 
-* Scalability and efficiency: Develop a vector index-based data structure to enable faster data access and storage, reducing overhead and improving overall system performance. VIVIAN is designed to support high transaction throughput and efficient resource allocation for AI and autonomous applications.
+* **Scalability and efficiency**: Develop a vector index-based data structure to enable faster data access and storage, reducing overhead and improving overall system performance. VIVIAN is designed to support high transaction throughput and efficient resource allocation for AI and autonomous applications.
 
-* Decentralized execution: Establish a virtual machine for distributed computation across network nodes, enabling decentralized execution of AI tasks and smart contracts. This approach will improve fault tolerance, reliability, and resistance to attacks.
+* **Decentralized execution**: Establish a virtual machine for distributed computation across network nodes, enabling decentralized execution of AI tasks and smart contracts. This approach will improve fault tolerance, reliability, and resistance to attacks.
 
-* Data privacy and security: Ensure the security and privacy of data within the network by employing cryptographic techniques for transaction verification, user authentication, and data integrity. VIVIAN aims to provide a secure infrastructure that meets the stringent requirements of AI-driven environments.
+* **Data privacy and security**: Ensure the security and privacy of data within the network by employing cryptographic techniques for transaction verification, user authentication, and data integrity. VIVIAN aims to provide a secure infrastructure that meets the stringent requirements of AI-driven environments.
 
-* Interoperability: Facilitate seamless integration with other platforms and services by adhering to open standards and providing APIs for external systems. This objective ensures that VIVIAN can easily interact with various AI applications, data sources, and other DLTs.
+* **Interoperability**: Facilitate seamless integration with other platforms and services by adhering to open standards and providing APIs for external systems. This objective ensures that VIVIAN can easily interact with various AI applications, data sources, and other DLTs.
 
-* Incentive mechanisms: Design an effective tokenization and incentive system to encourage participation in the network, maintain consensus, and allocate resources for computation, storage, and bandwidth.
+* **Incentive mechanisms**: Design an effective tokenization and incentive system to encourage participation in the network, maintain consensus, and allocate resources for computation, storage, and bandwidth.
 
-* Governance and upgrades: Implement a robust governance mechanism that allows for decision-making within the decentralized network, including protocol upgrades and changes to system parameters. This will help VIVIAN adapt to the evolving requirements of AI-driven applications and environments.
+* **Governance and upgrades**: Implement a robust governance mechanism that allows for decision-making within the decentralized network, including protocol upgrades and changes to system parameters. This will help VIVIAN adapt to the evolving requirements of AI-driven applications and environments.
 
-* Real-time performance: Optimize the consensus algorithm, data access, and processing to support low-latency, real-time AI execution and responsiveness. This is particularly important for AI applications that require timely decision-making.
+* **Real-time performance**: Optimize the consensus algorithm, data access, and processing to support low-latency, real-time AI execution and responsiveness. This is particularly important for AI applications that require timely decision-making.
 
-* Resource management: Develop strategies for efficient resource management and fair allocation of computational resources to prevent abuse and ensure fair usage within the network.
+* **Resource management**: Develop strategies for efficient resource management and fair allocation of computational resources to prevent abuse and ensure fair usage within the network.
 
-* Developer tools and ecosystem: Provide comprehensive tools, libraries, and documentation to enable developers to build AI applications on top of the VIVIAN platform, fostering a vibrant ecosystem of applications and services.
+* **Developer tools and ecosystem**: Provide comprehensive tools, libraries, and documentation to enable developers to build AI applications on top of the VIVIAN platform, fostering a vibrant ecosystem of applications and services.
 
 By achieving these objectives, VIVIAN aims to offer a scalable, efficient, and secure distributed ledger technology tailored to the needs of AI-driven and autonomous applications, overcoming the limitations of traditional blockchain and DAG-based systems.
 
