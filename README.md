@@ -33,7 +33,7 @@ The primary objectives of VIVIAN are to address the challenges and limitations o
 
 * Interoperability: Facilitate seamless integration with other platforms and services by adhering to open standards and providing APIs for external systems. This objective ensures that VIVIAN can easily interact with various AI applications, data sources, and other DLTs.
 
-Incentive mechanisms: Design an effective tokenization and incentive system to encourage participation in the network, maintain consensus, and allocate resources for computation, storage, and bandwidth.
+* Incentive mechanisms: Design an effective tokenization and incentive system to encourage participation in the network, maintain consensus, and allocate resources for computation, storage, and bandwidth.
 
 * Governance and upgrades: Implement a robust governance mechanism that allows for decision-making within the decentralized network, including protocol upgrades and changes to system parameters. This will help VIVIAN adapt to the evolving requirements of AI-driven applications and environments.
 
