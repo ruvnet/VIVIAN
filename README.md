@@ -109,8 +109,69 @@ This organization of the paper aims to provide a structured and coherent present
 
 ## 2. Related work
 ### 2.1. Blockchain-based DLTs
+Blockchain-based DLTs, such as Bitcoin and Ethereum, have been widely adopted and have demonstrated the potential for decentralized applications and trustless transactions. However, they face numerous challenges when applied to AI-driven environments, such as scalability, efficiency, and data privacy.
+
+Bitcoin's proof-of-work (PoW) consensus algorithm, while secure, is resource-intensive and limits the transaction throughput of the network. Ethereum's proof-of-stake (PoS) consensus algorithm improves on some of these limitations but still faces challenges in achieving high transaction throughput and scalability.
+
+In addition, both Bitcoin and Ethereum use linear data structures for transaction storage, which can limit data access and processing efficiency. The lack of privacy-preserving mechanisms in these systems also presents challenges in the context of AI-driven environments where data privacy is crucial.
+
 ### 2.2. Directed Acyclic Graph (DAG) based DLTs
+DAG-based DLTs, such as IOTA and Nano, offer improvements in scalability and efficiency by using a directed graph structure instead of a linear blockchain. Transactions are represented as nodes in the graph, and each transaction approves multiple previous transactions, creating a directed acyclic graph.
+
+This approach allows for high transaction throughput and eliminates the need for mining or staking, resulting in a more energy-efficient system. However, DAG-based DLTs may face challenges in achieving consensus and preventing attacks, such as double-spending, due to their asynchronous nature.
+
 ### 2.3. Other DLT approaches
+Other DLT approaches, such as Hashgraph and Holochain, have also emerged to address some of the limitations of traditional blockchain-based systems. Hashgraph uses a gossip protocol to achieve consensus, allowing for fast transaction finality and high throughput. Holochain is agent-centric, allowing each user to manage their own data and applications, enabling a more flexible and scalable system.
+
+While these DLT approaches offer improvements in certain aspects, they may introduce new challenges or trade-offs in terms of security, decentralization, or complexity. In this context, VIVIAN aims to provide a novel approach to DLTs that can cater to the unique requirements of AI-driven environments while preserving the key benefits of decentralization, security, and trust.
+
+## 2.4. Vector index-based data structures
+
+Vector index-based data structures are a relatively new approach to handling large-scale data sets that have gained popularity in the context of AI and machine learning applications. They are particularly well-suited for tasks such as natural language processing and image recognition, which require fast and efficient access to large volumes of data.
+
+One example of a system that uses vector index-based data structures is OpenAI's GPT (Generative Pre-trained Transformer) language model. GPT uses a vector index-based data structure called an attention mechanism to enable efficient processing of large-scale natural language data sets. By using this approach, GPT can perform complex language tasks, such as language translation and summarization, with high accuracy and efficiency.
+
+Another benefit of vector index-based data structures is their ability to support incremental learning and adaptation. This is particularly important in AI applications, where data sets can change rapidly and require continuous learning and adaptation. Vector index-based data structures can enable more efficient and effective learning in such dynamic environments.
+
+In the context of VIVIAN, a vector index-based data structure can provide several benefits, such as faster data access and storage, reduced overhead, and improved scalability. By leveraging the advantages of vector index-based data structures, VIVIAN aims to provide a more efficient and effective platform for AI-driven applications and environments.
+
+2.4.1. Drawbacks of Vector index-based data structures
+
+While vector index-based data structures offer several benefits over traditional blockchain and DAG-based systems, they also have some limitations, particularly when applied to large-scale AI systems. The following are some of the potential drawbacks:
+
+1. **High storage requirements**: Vector index-based data structures can require a significant amount of storage space, particularly when dealing with large datasets. This can be challenging for systems with limited storage resources.
+
+2. **Index maintenance overhead**: As the size of the vector index grows, the maintenance overhead can become significant, particularly when updating or adding new entries. This can lead to performance degradation and increased resource consumption.
+
+3. **Data fragmentation**: Vector index-based data structures may be prone to data fragmentation, where data is spread out across multiple nodes, leading to reduced efficiency and increased complexity.
+
+4. **Limited fault tolerance**: While vector index-based systems can offer fault tolerance to a certain extent, they may be less resilient to attacks or failures than traditional blockchain systems, particularly when dealing with large datasets or complex workflows.
+
+5. **Complexity**: Vector index-based data structures can be more complex to implement and maintain than traditional blockchain systems, particularly for systems with advanced features such as AI-based workflows or complex governance mechanisms.
+
+#### 2.4.2. Methods to mitigate the limitations of vector index-based data structures
+
+* Compression: One way to reduce the storage requirements of vector index-based data structures is to use compression techniques to compress the data. This can help reduce the amount of memory needed to store large vectors while still maintaining fast access times.
+
+* Partitioning: Partitioning the data across multiple nodes can help alleviate the performance and storage issues associated with large vectors. By partitioning the vector into smaller sub-vectors, each node only needs to store a subset of the data, reducing the memory requirements for each node.
+
+* Sampling: Instead of storing the entire vector, it is possible to store only a subset of the data and use sampling techniques to estimate the values of the missing elements. This can help reduce the memory requirements for storing large vectors, while still maintaining fast access times.
+
+* Hybrid approach: A hybrid approach that combines vector index-based data structures with other data structures can help mitigate the limitations of vector indexes. For example, using a hash table to store frequently accessed elements can help reduce the overhead of searching for elements in large vectors.
+
+2.5. Vector indexes in distributed systems
+Vector indexes have been proposed as an alternative data structure for immutable distributed systems, which can offer better performance and scalability compared to traditional blockchain-based systems. Vector indexes allow for random access to data, eliminating the need for linear traversal of data structures, which can be a bottleneck in large-scale systems.
+
+In recent years, vector indexes have been applied in various AI applications, such as natural language processing (NLP) and deep learning. For instance, OpenAI's GPT (Generative Pre-trained Transformer) model uses vector indexes to store and retrieve large amounts of text data efficiently. The GPT model has achieved impressive results in various NLP tasks, such as language generation, text classification, and question answering.
+
+Vector indexes have also been used in distributed databases and search engines, where fast data retrieval is critical. For example, Google's Bigtable and Amazon's DynamoDB both use vector indexes to enable efficient data access and querying.
+
+#### 2.5.1 Limitations of vector indexes in distributed systems
+While vector indexes offer several advantages over traditional blockchain-based systems, they also have some limitations. One of the primary challenges is maintaining consistency in a distributed setting, where multiple nodes may update the same data concurrently. Various techniques have been proposed to address this challenge, such as conflict-free replicated data types (CRDTs) and multi-version concurrency control (MVCC).
+
+Another challenge is ensuring security and privacy in a distributed setting. Since vector indexes allow for random access to data, it is crucial to prevent unauthorized access and ensure data confidentiality. Techniques such as encryption and access control can help address these challenges.
+
+Vector indexes offer a promising approach to building scalable and efficient distributed systems, particularly in the context of AI applications. As such, they have the potential to be a key component of next-generation distributed ledger technologies, such as VIVIAN.
 
 ## 3. Use cases for VIVIAN
 ### 3.1. Decentralized AI platforms
