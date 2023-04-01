@@ -159,7 +159,7 @@ While vector index-based data structures offer several benefits over traditional
 
 * Hybrid approach: A hybrid approach that combines vector index-based data structures with other data structures can help mitigate the limitations of vector indexes. For example, using a hash table to store frequently accessed elements can help reduce the overhead of searching for elements in large vectors.
 
-2.5. Vector indexes in distributed systems
+### 2.5. Vector indexes in distributed systems
 Vector indexes have been proposed as an alternative data structure for immutable distributed systems, which can offer better performance and scalability compared to traditional blockchain-based systems. Vector indexes allow for random access to data, eliminating the need for linear traversal of data structures, which can be a bottleneck in large-scale systems.
 
 In recent years, vector indexes have been applied in various AI applications, such as natural language processing (NLP) and deep learning. For instance, OpenAI's GPT (Generative Pre-trained Transformer) model uses vector indexes to store and retrieve large amounts of text data efficiently. The GPT model has achieved impressive results in various NLP tasks, such as language generation, text classification, and question answering.
