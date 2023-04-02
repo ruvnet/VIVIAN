@@ -305,7 +305,7 @@ Adoption of best practices and standards for secure data sharing, such as the Fa
 
 The VIVIAN framework must prioritize data privacy and security to ensure the success of its data marketplaces and other AI-driven applications. Compliance with regulations, vulnerability and exploit mitigation, and adoption of best practices and standards are key components of this effort.
 
-### 4.2. DLT Economics
+### 4.2. VIVIAN Economics
 The VIVIAN network leverages the machine learning capabilities of the AI nodes to perform tasks that require significant computational resources. For example, the nodes are tasked with training and optimizing complex neural networks using large datasets, which can be computationally intensive.
 
 The proof-of-work mechanism requires nodes to complete a certain number of training epochs or achieve a certain level of accuracy on a given dataset before being rewarded with tokens. The computations performed by the nodes are verified by other nodes in the network, using techniques such as homomorphic encryption or multi-party computation to ensure the integrity of the computations without revealing the data.
