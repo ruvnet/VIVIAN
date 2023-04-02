@@ -305,7 +305,36 @@ Adoption of best practices and standards for secure data sharing, such as the Fa
 
 The VIVIAN framework must prioritize data privacy and security to ensure the success of its data marketplaces and other AI-driven applications. Compliance with regulations, vulnerability and exploit mitigation, and adoption of best practices and standards are key components of this effort.
 
-### 4.2. Scalability and efficiency
+### 4.2. DLT Economics
+The VIVIAN network leverages the machine learning capabilities of the AI nodes to perform tasks that require significant computational resources. For example, the nodes are tasked with training and optimizing complex neural networks using large datasets, which can be computationally intensive.
+
+The proof-of-work mechanism requires nodes to complete a certain number of training epochs or achieve a certain level of accuracy on a given dataset before being rewarded with tokens. The computations performed by the nodes are verified by other nodes in the network, using techniques such as homomorphic encryption or multi-party computation to ensure the integrity of the computations without revealing the data.
+
+Hardware and energy sources:
+To minimize energy consumption and environmental impact, the AI nodes are equipped with energy-efficient hardware such as low-power CPUs and GPUs, as well as specialized hardware accelerators such as tensor processing units (TPUs) for neural network training.
+
+In addition, the energy used by the nodes is sourced from renewable energy sources such as solar or wind power, or from energy sources that are otherwise wasted or underutilized, such as excess energy from data centers or industrial processes.
+
+#### Benefits:
+This approach to proof-of-work offers several benefits over traditional proof-of-work mechanisms:
+
+* Energy efficiency: By using energy-efficient hardware and renewable energy sources, the energy consumption and environmental impact of the network is significantly reduced.
+* Scalability: The use of AI capabilities allows for the network to scale to handle larger volumes of transactions and more complex computations.
+* Security: The use of homomorphic encryption or multi-party computation ensures the integrity of computations without revealing sensitive data, enhancing the security of the network.
+
+#### Drawbacks:
+However, there are also potential drawbacks to this approach:
+
+Complexity: The use of AI and advanced cryptography techniques adds complexity to the network, which could increase the difficulty of implementation and maintenance.
+Centralization: The use of specialized hardware such as TPUs could lead to centralization of the network around nodes that have access to these resources, potentially reducing the decentralization of the network.
+
+#### Example use case:
+One potential use case for this proof-of-work mechanism is in the field of medical research. The AI nodes in the VIVIAN network are tasked with analyzing large datasets of medical imaging or genetic data to identify potential treatments for diseases such as cancer.
+
+By completing these tasks, the nodes earn tokens that can be used to fund further research or to compensate the researchers who contributed the data. The use of homomorphic encryption or multi-party computation ensures the privacy and security of sensitive medical data while still allowing for meaningful analysis.
+
+Implementing a proof-of-work mechanism for the VIVIAN network using AI capabilities and renewable energy sources offers several benefits over traditional proof-of-work mechanisms, including energy efficiency, scalability, and security. However, there are also potential drawbacks to consider, such as increased complexity and the risk of centralization. A potential use case for this approach is in the field of medical research, where the AI nodes can analyze large medical datasets to identify potential treatments for diseases.
+
 ### 4.3. Decentralized execution
 ### 4.4. Interoperability
 ### 4.5. Incentive mechanisms
